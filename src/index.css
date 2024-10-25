@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+    /* 
+  -webkit-font-smoothing: antialiased;
+  This CSS property is used in WebKit-based browsers (like Safari and older versions of Chrome)
+  to make fonts look smoother by applying anti-aliasing. The 'antialiased' value makes the edges of the
+  text sharper, improving readability by rendering the font with more smoothness.
+
+  -moz-osx-font-smoothing: grayscale;
+  This property is specific to Mozilla-based browsers on macOS (like Firefox). It controls
+  how fonts are smoothed on macOS, with the 'grayscale' value applying grayscale anti-aliasing,
+  resulting in cleaner and more legible text on the screen.
+*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inter', sans-serif;
+  background-color: #eceff1;
+  font-weight: bold;
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
