@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Pokémon Go Card Game
+Welcome to the Pokémon Go Card Game repository! This project is a fun Pokémon-themed card game built with React, JavaScript, HTML, and CSS. It allows players to view different Pokémon cards and compare their experience points (EXP) to determine a winning and losing player.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Table of Contents
+Project Overview
+Features
+Technologies Used
+Installation
+Usage
+Contributing
+Contact
+Preview
+# Project Overview
+The Pokémon Go Card Game is designed as a simple card game where Pokémon cards display each Pokémon's name, type, and EXP points. The total EXP is calculated for each player to determine the winner.
 
-## Available Scripts
+# Features
+Display Pokémon cards with name, type, and experience points
+Calculate total experience points for each player
+Determine and display the winning and losing players based on total experience
+Technologies Used
+React for building the UI components
+JavaScript for handling logic and calculations
+HTML and CSS for structuring and styling the application
+Installation
+To set up the project locally, follow these steps:
 
-In the project directory, you can run:
+Clone the repository:
 
-### `npm start`
+bash
+Kodu kopyala
+git clone https://github.com/turanserdar/your-repository.git
+Navigate to the project directory:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Kodu kopyala
+cd pokedex
+Install dependencies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy Code
+npm install
+Run the application:
 
-### `npm test`
+bash
+Copy Code
+npm start
+The application should now be running at http://localhost:3000.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Usage
+Once the application is running, you can view Pokémon cards and see the total experience points calculated for each player. The player with the higher total EXP is displayed as the winner.
 
-### `npm run build`
+Feel free to modify the Pokémon data or add additional features to customize the game further!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Contributing
+Contributions are welcome! If you would like to contribute to this project, please fork the repository and submit a pull request.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Contact
+For any inquiries or feedback, please reach out:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Email: turanserdar@outlook.com.tr
+# Preview
+Below is a preview of the game interface:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Pokedex](https://github.com/user-attachments/assets/9660b035-fc18-47c9-a533-e4c351f093b8)
