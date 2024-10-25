@@ -27,12 +27,12 @@ To set up the project locally, follow these steps:
 Clone the repository:
 
 bash
-Kodu kopyala
+Copy Code
 git clone https://github.com/turanserdar/your-repository.git
 Navigate to the project directory:
 
 bash
-Kodu kopyala
+Copy Code
 cd pokedex
 Install dependencies:
 
